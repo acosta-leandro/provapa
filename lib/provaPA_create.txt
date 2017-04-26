@@ -1,0 +1,17 @@
+CREATE TABLE Bloqueio (
+    id serial  NOT NULL,
+    bloqueio varchar(25)  NOT NULL,
+    estado varchar(25)  NOT NULL,
+    CONSTRAINT Bloqueio_pk PRIMARY KEY (id)
+);
+
+-- Table: Categoria
+CREATE TABLE Categoria (
+    id serial  NOT NULL,
+    categoria varchar(25)  NOT NULL,
+    estado varchar(25)  NOT NULL,
+    CONSTRAINT Categoria_pk PRIMARY KEY (id)
+);
+
+-- End of file.
+

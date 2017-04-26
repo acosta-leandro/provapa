@@ -1,0 +1,48 @@
+INSERT INTO bloqueio VALUES (default, 'Bloqueio 1', 'Ativo');
+INSERT INTO bloqueio VALUES (default, 'Bloqueio 2', 'Desativado');
+INSERT INTO bloqueio VALUES (default, 'Bloqueio 4', 'Ativo');
+INSERT INTO bloqueio VALUES (default, 'Bloqueio 3', 'Ativo');
+
+
+INSERT INTO categoria VALUES (default, 'Categoria 1', 'Ativo');
+INSERT INTO categoria VALUES (default, 'Categoria 2', 'Desativado');
+INSERT INTO categoria VALUES (default, 'Categoria 3', 'Desativado');
+INSERT INTO categoria VALUES (default, 'Categoria 4', 'Ativo');
+
+
+INSERT INTO comanda VALUES (default, 'Vendas', '2017-03-28 12:57:00', NULL, 'Faturado', 'R$0,00');
+INSERT INTO comanda VALUES (default, 'Daiana', '2017-03-28 13:15:00', NULL, 'Aberto', 'R$0,00');
+INSERT INTO comanda VALUES (default, 'Daiana', '2017-03-28 13:15:00', NULL, 'Aberto', 'R$0,00');
+INSERT INTO comanda VALUES (default, 'Tati', '2017-03-28 13:15:00', NULL, 'Aberto', 'R$0,00');
+
+
+INSERT INTO grupo VALUES (default, 'Grupo 1', 'Ativo');
+INSERT INTO grupo VALUES (default, 'Grupo 2', 'Desativado');
+INSERT INTO grupo VALUES (default, 'Grupo 4', 'Ativo');
+INSERT INTO grupo VALUES (default, 'Grupo 3', 'Ativo');
+
+
+INSERT INTO subgrupo VALUES (default, 'Subgrupo 1', 1, 'Ativo');
+INSERT INTO subgrupo VALUES (default, 'Subgrupo 2', 2, 'Desativado');
+INSERT INTO subgrupo VALUES (default, 'Subgrupo 3', 3, 'Desativado');
+INSERT INTO subgrupo VALUES (default, 'Subgrupo 4', 4, 'Ativo');
+
+INSERT INTO tipo VALUES (default, 'Tipo 1', 'Ativo');
+INSERT INTO tipo VALUES (default, 'Tipo 2', 'Desativado');
+INSERT INTO tipo VALUES (default, 'Tipo 3', 'Desativado');
+INSERT INTO tipo VALUES (default, 'Tipo 4', 'Ativo');
+INSERT INTO tipo VALUES (default, 'Tipo 4', 'Ativo');
+INSERT INTO tipo VALUES (default, 'Tipo 4', 'Ativo');
+INSERT INTO tipo VALUES (default, 'Tipo 4', 'Desativado');
+
+INSERT INTO unidade VALUES (default, 'Un 1', '1', 'Ativo');
+INSERT INTO unidade VALUES (default, 'Un 2', '2', 'Desativado');
+INSERT INTO unidade VALUES (default, 'Un 3', '3', 'Desativado');
+INSERT INTO unidade VALUES (default, 'Un 4', '4', 'Ativo');
+
+INSERT INTO produto VALUES (default, 1, 'prod 1', 1, 1, 1, 1, 1, 'R$11,11', 'R$4,44', 'R$77,77', 77, 11);
+INSERT INTO produto VALUES (default, 2, 'prod 2', 2, 2, 2, 2, 2, 'R$22,22', 'R$5,55', 'R$88,88', 88, 22);
+INSERT INTO produto VALUES (default, 3, 'prod 3', 3, 3, 3, 3, 3, 'R$33,33', 'R$6,66', 'R$99,99', 99, 33);
+
+INSERT INTO usuario VALUES (default, 'user','user','user','user');
+INSERT INTO usuario VALUES (default, 'adm','adm','adm','adm');
